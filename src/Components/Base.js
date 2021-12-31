@@ -29,7 +29,10 @@ export default function Base(props) {
           <img src={Vora} alt="logo" className="m-auto" width="75px" />
           <div className="d-flex">
             <img src={Bell} alt="Notification" width="24px" className="mr-1" />
-            <img src={Search} alt="Search" width="24px" className="mr-1" />
+            <Link to="/search">
+              {" "}
+              <img src={Search} alt="Search" width="24px" className="mr-1" />
+            </Link>
           </div>
         </div>
       </div>

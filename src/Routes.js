@@ -2,6 +2,9 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home/index";
 import PostDetails from "./Components/Home/PostDetails";
+import SeeMore from "./Components/Home/SeeMore";
+
+import Search from "./Components/Search/index";
 
 import Profile from "./Components/Profile/index";
 import ProfileSettings from "./Components/Profile/ProfileSettings";
@@ -22,6 +25,8 @@ const AllRoutes = () => {
       <Routes>
         <Route path="/home" exact element={<Home />} />
         <Route path="/postdetails" exact element={<PostDetails />} />
+        <Route path="/seemore" exact element={<SeeMore />} />
+        <Route path="/search" exact element={<Search />} />
 
         <Route path="/post" exact element={<CreatePost />} />
         <Route path="/myprofile" exact element={<Profile />} />

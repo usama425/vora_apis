@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Base from "./../Base";
+import { Link } from "react-router-dom";
+
 import Banner from "../../Assets/images/Banner.png";
 import g1 from "../../Assets/images/g1.png";
 import g2 from "../../Assets/images/g2.png";
@@ -114,7 +116,7 @@ export default function Home() {
               추천해요! 전망 좋은데 생각보다 주말에 널널해서 여유도 느껴지는것
               같아요... <span className="postMore">더보기</span>
             </div>
-            <div className="postImages">
+            <Link to="/postdetails" className="postImages">
               <div className="d-flex justify-content-between">
                 <img
                   src={f1}
@@ -144,7 +146,7 @@ export default function Home() {
                   className="postImgPadding"
                 />
               </div>
-            </div>
+            </Link>
             <div className="d-flex justify-content-between bottomLine">
               <div className="d-flex m-2 ">
                 <div>
