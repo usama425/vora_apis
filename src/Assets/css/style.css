@@ -1,0 +1,484 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+.colorLight {
+  background-color: #e5e5e5;
+}
+.textLight {
+  color: #e5e5e5;
+}
+.comment {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  color: #434343;
+}
+.line {
+  margin: auto;
+  width: 98%;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+.vHearder {
+  width: 100%;
+  height: 44px;
+  position: fixed;
+  top: 0;
+}
+.vFooter {
+  width: 100%;
+  height: 56px;
+  position: fixed;
+  bottom: 0;
+}
+.vBox {
+  border: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.vBox1 {
+  width: 100%;
+  border: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+.con {
+  max-width: 768px;
+  margin: auto;
+}
+.main {
+  margin-top: 44px;
+}
+.mainCon {
+  max-width: 768px;
+  margin: 8px auto;
+  background-color: #ffffff;
+}
+.primaryTextColor {
+  color: #a02a95;
+}
+.primaryColor {
+  background-color: #a02a95;
+  border-color: #a02a95;
+}
+.primaryColor:hover {
+  background-color: #a02a95;
+  border-color: #a02a94ea;
+}
+.primaryButton {
+  background-color: #a02a95;
+  width: 124px;
+  height: 32px;
+  border-radius: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 4px;
+}
+.primaryButton:hover {
+  cursor: pointer;
+  background-color: #972d8d;
+}
+.primaryButtonOutline {
+  border: 1px solid #a02a95;
+  height: 24px;
+  font-size: 14px;
+  border-radius: 18px;
+  color: #a02a95;
+  text-align: center;
+  padding-top: 1px;
+}
+.primaryButtonOutline:hover {
+  cursor: pointer;
+  background-color: #972d8d;
+  color: #ffffff;
+}
+.primaryDisabledButton {
+  color: #e5e5e5;
+  width: 124px;
+  height: 32px;
+  border-radius: 18px;
+  text-align: center;
+  padding-top: 4px;
+}
+.primaryDisabledButton:hover {
+  cursor: pointer;
+  border: 1px solid #e5e5e5;
+}
+.primaryButtonOutlineBlock {
+  border: 1px solid #a02a95;
+  height: 48px;
+  font-size: 16px;
+  border-radius: 4px;
+  color: #a02a95;
+  text-align: center;
+  padding-top: 1px;
+}
+.smallRoundImg {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: cover;
+}
+/* Sign In Page............................................... */
+.SignInLogo {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.signinLine {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.signinLine p {
+  width: 120px;
+  margin: auto;
+  background-color: #ffffff;
+  margin-top: -29px;
+}
+.socialLogins {
+  width: 200px;
+  margin: auto;
+}
+
+/* SignUp Page.............................................. */
+.termsText {
+  width: 100%;
+  height: 200px;
+  overflow-y: scroll;
+}
+.vheading {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.32px;
+}
+.vSubHeading {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.32px;
+  color: #303030;
+}
+.vFormLabel {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.32px;
+
+  color: #303030;
+}
+
+.vDisabledButton {
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+/* ..................Footer........................... */
+
+.vFooterText {
+  font-size: 11px;
+  color: #e5e5e5;
+}
+.primaryText {
+  color: #a02a95;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background-color: #ffffff;
+  }
+  .con {
+    max-width: 100%;
+  }
+  .mainCon {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+/* ............................HomePage ..................... */
+.inputBox {
+  height: 44px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #a02a95;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.vHeadingSmall {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.32px;
+}
+.vTag {
+  background: #f5f5f5;
+  height: 40px;
+  border-radius: 8px;
+  margin-right: 5px;
+  padding: 8px 10px;
+}
+.avtar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.postHeading {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.postSubHeading {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #9d9d9d;
+}
+.postBox {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+.postTextBox {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 168.3%;
+  /* height: 100px; */
+  color: #000000;
+}
+.postMore {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #9d9d9d;
+}
+.postIconText {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+.bottomLine {
+  border: 1px solid #e9e9e9;
+}
+.postImgPadding {
+  padding: 2px;
+}
+.postText {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+}
+
+/* My Profile......................................  */
+.profileAvtar {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.profileName {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+  color: #000000;
+}
+.profileEmail {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+  color: #000000;
+}
+
+.stats {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: #822087;
+}
+.statsText {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  color: #434343;
+}
+.profileDraftText {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  align-items: center;
+  letter-spacing: -0.32px;
+  color: #000000;
+}
+.profileOptionText {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  align-items: center;
+  letter-spacing: -0.32px;
+  color: #000000;
+}
+.changeProfileIcon {
+  align-self: flex-end;
+  margin-left: -25px;
+}
+
+.fieldTitle {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.32px;
+}
+.profileInputBox {
+  width: 85%;
+}
+.profileInput {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #c4c4c4;
+}
+.boxHeight {
+  height: 120px;
+}
+
+/* ................................Create Post ...................................  */
+.createPostBox {
+  min-height: 40vh;
+}
+.postText {
+  width: 100%;
+  border: none;
+}
+.announcements {
+  min-height: 90vh;
+  padding-top: 35%;
+}
+
+.smallPrimaryButton {
+  background-color: #a02a95;
+  /* width: 124px; */
+  height: 22px;
+  border-radius: 18px;
+  color: #ffffff;
+  text-align: center;
+  /* padding-top: 4px; */
+}
+.smallPrimaryButton:hover {
+  cursor: pointer;
+  background-color: #972d8d;
+}
+.announcementsText {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.announcementsTextLight {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+
+  /* VORA/B6 */
+
+  color: #7b7b7b;
+}
+.announcementDetailsBox {
+  min-height: 80vh;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* .............................Notification */
+.textNotification {
+  font-family: Noto Sans KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.32px;
+  color: #000000;
+}
