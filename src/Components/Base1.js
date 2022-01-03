@@ -5,7 +5,7 @@ import Back from "../Assets/icons/Back.png";
 export default function Base1(props) {
   return (
     <div>
-      <div className="vHearder bg-white">
+      <div className="vHearder bg-white" >
         <div className="con d-flex p-1 justify-content-between">
           <div className="d-flex ">
             <Link to={props.BackLink || "/home"}>
@@ -14,7 +14,7 @@ export default function Base1(props) {
           </div>
           <div className="m-auto">
             {" "}
-            <b> {props.name}</b>
+            <b style={{ fontSize: "24px" }}> {props.name}</b>
           </div>
           <div className="d-flex my-auto mr-2">{props.subName}</div>
         </div>

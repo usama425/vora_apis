@@ -80,7 +80,7 @@ export default function Home() {
         <div className="con bg-white mt-2 p-2">
           <div className="d-flex justify-content-between">
             <div className="vHeadingSmall">추천 그룹</div>
-            <div className="vSubHeading">전체보기 ></div>
+            <div className="vSubHeading">전체보기 </div>
           </div>
           <div className="d-flex flex-wrap mt-1">
             <div className="vTag mt-2">#1일1보라</div>

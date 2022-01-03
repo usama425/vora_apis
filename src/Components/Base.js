@@ -15,7 +15,7 @@ import AWrite from "../Assets/icons/AWrite.png";
 
 export default function Base(props) {
   const location = useLocation();
-  console.log(location);
+  // console.log(location);
   const currentTab = (path) => {
     if (path === location.pathname) {
       return true;

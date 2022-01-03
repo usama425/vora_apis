@@ -18,6 +18,7 @@ import ContactUs from "./Components/Profile/ContactUs";
 import CreatePost from "./Components/Post/CreatePost";
 import Signup from "./Components/Registrations/Signup";
 import Signin from "./Components/Registrations/Signin";
+import CulturalTag from "./Components/Post/CulturalTag";
 
 const AllRoutes = () => {
   return (
@@ -29,6 +30,7 @@ const AllRoutes = () => {
         <Route path="/search" exact element={<Search />} />
 
         <Route path="/post" exact element={<CreatePost />} />
+        <Route exact path="/post/cultural_tag" element={<CulturalTag />} />
         <Route path="/myprofile" exact element={<Profile />} />
         <Route path="/profilesettings" exact element={<ProfileSettings />} />
         <Route path="/blockedusers" exact element={<BlockedUsers />} />
